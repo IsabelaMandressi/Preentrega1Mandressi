@@ -4,16 +4,17 @@ import CartWidget from "../CartWidget/CartWidget"
 //import NavbarBackground from "./prints.jpg"
 //import logo from "./logo.png"
 
+import logoImg from "../../img/logo.png"
 const Header = () => {
     return (
-        <div class = "encabezado" style={{ 
+        <div style={{ 
                 display: "flex", 
                 width: "100%", 
                 height: "20vh", 
-                justifyContent: "space-around", 
+                justifyContent: "space-evenly", 
                 alignItems: "center",
-                backgroundColor: "palevioletred" }}>
-            <img src="../img/logo.jpg" alt="logo" height="20vh" />
+                backgroundColor: "black" }}>
+                <img src= {logoImg} alt="logo" height="131vh" />
             <Navbar />
         </div>
     )

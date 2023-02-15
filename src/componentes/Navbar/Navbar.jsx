@@ -1,5 +1,6 @@
 import ListNavbar from "../ListNavbar/ListNavbar"
 import CartWidget from "../CartWidget/CartWidget"
+
 const Navbar = () => {
 
     return (
@@ -10,7 +11,7 @@ const Navbar = () => {
             alignItems: "center" }}>
             <ul style={{display: "flex", 
             flexDirection:"row",
-            justifyContent:"space-between"}}>
+            justifyContent:"space-between", width:"20em"}}>
                 <ListNavbar title="Prendas" />
                 <ListNavbar title="Accesorios" />
                 <ListNavbar title="Prints" />

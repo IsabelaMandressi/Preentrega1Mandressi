@@ -6,10 +6,11 @@ const CartWidget = () => {
         <div style={{
             display:"flex",
             flexDirection:"column",
-            justifyContent:"stretch"
+            justifyContent:"stretch",
+            marginLeft:"2em"
         }}>
             <p style = {{fontSize:"0.6em"}}>{carrito}</p>
-            <TiShoppingCart/>
+            <TiShoppingCart style={{color:"white"}}/>
         </div>
 
     )
