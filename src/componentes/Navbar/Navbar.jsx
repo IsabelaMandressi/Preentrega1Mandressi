@@ -1,5 +1,6 @@
 import ListNavbar from "../ListNavbar/ListNavbar"
 import CartWidget from "../CartWidget/CartWidget"
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
 
@@ -12,9 +13,9 @@ const Navbar = () => {
             <ul style={{display: "flex", 
             flexDirection:"row",
             justifyContent:"space-between", width:"20em"}}>
-                <ListNavbar title="Prendas" />
-                <ListNavbar title="Accesorios" />
-                <ListNavbar title="Prints" />
+                <Link to="/catalogo">
+                    <ListNavbar title="Catálogo" />
+                </Link>
             </ul>
             <CartWidget/>
         </div>

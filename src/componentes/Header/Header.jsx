@@ -1,10 +1,8 @@
 import Navbar from "../Navbar/Navbar"
-import CartWidget from "../CartWidget/CartWidget"
-
-//import NavbarBackground from "./prints.jpg"
-//import logo from "./logo.png"
-
 import logoImg from "../../img/logo.png"
+import { Link } from "react-router-dom"
+
+
 const Header = () => {
     return (
         <div style={{ 
@@ -14,7 +12,9 @@ const Header = () => {
                 justifyContent: "space-evenly", 
                 alignItems: "center",
                 backgroundColor: "black" }}>
-                <img src= {logoImg} alt="logo" height="131vh" />
+            <Link to="/">
+            <img src= {logoImg} alt="logo" height="131vh" />
+            </Link>
             <Navbar />
         </div>
     )

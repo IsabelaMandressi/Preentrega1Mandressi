@@ -1,0 +1,10 @@
+.detailCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.detailImg{
+    width: 20em;
+    height: 38em;
+}

@@ -1,18 +1,24 @@
 import Header from "./componentes/Header/Header"
-import ItemCount from "./componentes/ItemCount/ItemCount";
 import ItemListContainer from "./componentes/ItemListContainer/ItemListContainer";
+import ItemDetailContainer from "./componentes/ItemDetailContainer/ItemDetailContainer";
+import Home from "./componentes/home/Home";
+
+import {BrowserRouter, Routes, Route} from "react-router-dom"
+
 function App() {
 
-const onAdd = (cantidad)=>{
-  console.log(`Se agregaron al carrito ${cantidad} productos`)
-}
-
   return (
-    <div>
-      <Header/>
-      <ItemListContainer/>
-      <ItemCount stock = {20} initial = {0} onAdd={onAdd}/>
-    </div>
+    <BrowserRouter>
+      <Header />
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="catalogo" element={<ItemListContainer/>}/>
+          <Route path="/ItemDetail/:id" element={<ItemDetailContainer/>}/>
+          <Route path="/cart" element={<h1>Carrito</h1>}/>
+          <Route path="*" element={<h1>Error</h1>}/>
+        </Routes>
+        
+    </BrowserRouter>
   );
 }
 

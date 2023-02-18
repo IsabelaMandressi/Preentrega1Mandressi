@@ -1,0 +1,20 @@
+.productCard{
+    width: 15em;
+    height: 20em;
+    margin-bottom: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+}
+img{
+    width: 10em;
+    height: inherit;
+    margin-bottom: 0;
+}
+
+.nombre{
+    size: 5em;
+    text-decoration: none;
+}
