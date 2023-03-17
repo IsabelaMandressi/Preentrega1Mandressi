@@ -4,13 +4,13 @@ import ItemCount from "../ItemCount/ItemCount";
 import Swal from 'sweetalert2'
 import "./ItemDetail.css"
 
-const ItemDetail = ({ product }) => {
+const ItemDetail = ({ producto }) => {
 
         const {addToCart, getQuantityById} = useContext(CartContext)
 
         const onAdd = (cantidad) => {
             const obj = {
-                ...product,
+                ...producto,
                 quantity:cantidad
 
             };
@@ -25,17 +25,17 @@ const ItemDetail = ({ product }) => {
             })
         }
 
-        const quantity = getQuantityById(product.id)
+        const quantity = getQuantityById(producto.id)
 
     return (
         <div>
             <div className="detailCard" style={{ paddingBottom: "100px" }}>
-                <img src={product.img} alt="imagenProducto" className="detailImg"/>
-                <h1>{product.nombre}</h1>
-                <h2>${product.precio}</h2>
+                <img src={producto.img} alt="imagenProducto" className="detailImg"/>
+                <h1>{producto.nombre}</h1>
+                <h2>${producto.precio}</h2>
             </div>
             <ItemCount
-            stock={product.stock}
+            stock={producto.stock}
             onAdd = {onAdd}
             initial={quantity}
             />

@@ -3,6 +3,8 @@ import "./ProdCard.css"
 import {Link} from "react-router-dom"
 
 
+
+
 const ProdCard = ({element}) => {
     return (
         <Link to={`/ItemDetail/${element.id}`}>

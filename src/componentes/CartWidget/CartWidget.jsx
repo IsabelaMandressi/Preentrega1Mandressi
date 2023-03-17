@@ -12,7 +12,7 @@ const CartWidget = () => {
                 flexDirection:"column",
                 justifyContent:"stretch",
                 marginLeft:"2em"}}>
-                <p style = {{fontSize:"0.6em"}}>{getTotalItems()}</p>
+                <p style = {{fontSize:"0.6em", color:"white"}}>{getTotalItems()}</p>
                 <TiShoppingCart style={{color:"white"}}/>
             </div>
         </Link>

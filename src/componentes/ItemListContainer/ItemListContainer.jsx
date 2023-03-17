@@ -9,8 +9,9 @@ import { getDocs, collection, query, where } from "firebase/firestore"
 
 const override = {
     display: "block",
-    margin: "0 auto",
-    borderColor: "red",
+    align:"center",
+    margin: "100 auto",
+    borderColor: "pink",
 }
 
 
@@ -23,51 +24,46 @@ const ItemListContainer = () => {
 
         const itemCollection = collection(db, "productos")
 
-        if (categoryName) {
+        if(categoryName){
 
-            const q = query(itemCollection, where("categoria", "==", categoryName))
-
+            const q = query(itemCollection, where("categoria", "==",categoryName))
             getDocs(q)
-                .then((res) => {
-                    const productos = res.docs.map(producto => {
-                        return {
-                            ...producto.data(),
-                            id: producto.id
-                        }
-                    })
-
+            .then((res) => {
+                const productos = res.docs.map(producto => {
+                    return {
+                        ...producto.data(),
+                        id: producto.id
+                    }})
                     setItems(productos)
                 })
-                .catch((err) => console.log("error: " + err))
+            .catch((err) => console.log("error: " + err))
 
-
-
-        } else {
-
+        }else{
             getDocs(itemCollection)
                 .then((res) => {
                     const productos = res.docs.map(producto => {
                         return {
                             ...producto.data(),
                             id: producto.id
-                        }
+                        }})
+                        setItems(productos)
                     })
-
-                    setItems(productos)
-                })
                 .catch((err) => console.log("error: " + err))
 
         }
-    }, [categoryName])
+        
+    
+    }
+    , [categoryName])
 
 
     return (
         <>
             <BeatLoader
                 color={"pink"}
-                loading={items.length < 10}
+                loading={items.length < 3}
                 cssOverride={override}
-                size={80}
+                size={50}
                 aria-label="Loading Spinner"
                 data-testid="loader"
             />

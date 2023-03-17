@@ -26,7 +26,7 @@ const Navbar = () => {
                     </NavLink>
 
                     <NavLink
-                        to="/tote-bags"
+                        to="/categoria/tote-bag"
                         className={({ isActive }) =>
                             isActive ? "active-navbar" : "navbar-item"
                         }
@@ -35,7 +35,7 @@ const Navbar = () => {
                     </NavLink>
 
                     <NavLink
-                        to="pañuelos"
+                        to="/categoria/panuelo"
                         className={({ isActive }) =>
                             isActive ? "active-navbar" : "navbar-item"
                         }
@@ -43,7 +43,7 @@ const Navbar = () => {
                         <ListNavbar title="Pañuelos" />
                     </NavLink>
                     <NavLink
-                        to="/poleras"
+                        to="/categoria/polera"
                         className={({ isActive }) =>
                             isActive ? "active-navbar" : "navbar-item"
                         }
