@@ -50,7 +50,7 @@ export const products = [
         precio:690,
         img: img1,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 2, 
@@ -58,7 +58,7 @@ export const products = [
         precio:690,
         img: img2,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 3, 
@@ -66,7 +66,7 @@ export const products = [
         precio:690,
         img: img3,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 4, 
@@ -74,7 +74,7 @@ export const products = [
         precio:690,
         img: img4,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id :5, 
@@ -82,7 +82,7 @@ export const products = [
         precio:690,
         img: img5,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 6, 
@@ -90,7 +90,7 @@ export const products = [
         precio:690,
         img: img6,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 7, 
@@ -98,7 +98,7 @@ export const products = [
         precio:690,
         img: img7,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 8, 
@@ -106,7 +106,7 @@ export const products = [
         precio:690,
         img: img8,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 9, 
@@ -114,7 +114,7 @@ export const products = [
         precio:690,
         img: img9,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 10, 
@@ -122,7 +122,7 @@ export const products = [
         precio:690,
         img: img10,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 11, 
@@ -130,7 +130,7 @@ export const products = [
         precio:690,
         img: img11,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 12, 
@@ -138,7 +138,7 @@ export const products = [
         precio:690,
         img: img12,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 13, 
@@ -146,7 +146,7 @@ export const products = [
         precio:690,
         img: img13,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 14, 
@@ -154,7 +154,7 @@ export const products = [
         precio:690,
         img: img14,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 15, 
@@ -162,7 +162,7 @@ export const products = [
         precio:690,
         img: img15,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 16, 
@@ -170,7 +170,7 @@ export const products = [
         precio:690,
         img: img16,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 17, 
@@ -178,7 +178,7 @@ export const products = [
         precio:690,
         img: img17,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 18, 
@@ -186,7 +186,7 @@ export const products = [
         precio:690,
         img: img18,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 19, 
@@ -194,7 +194,7 @@ export const products = [
         precio:690,
         img: img19,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 20, 
@@ -202,7 +202,7 @@ export const products = [
         precio:690,
         img: img20,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 21, 
@@ -210,7 +210,7 @@ export const products = [
         precio:690,
         img: img21,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 22, 
@@ -218,7 +218,7 @@ export const products = [
         precio:690,
         img: img22,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 23, 
@@ -226,7 +226,7 @@ export const products = [
         precio:690,
         img: img23,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 24, 
@@ -234,7 +234,7 @@ export const products = [
         precio:690,
         img: img24,
         categoria: "tote bag",
-        cantidad:1
+        stock:1
     },
     { 
         id : 25, 
@@ -242,7 +242,7 @@ export const products = [
         precio:990,
         img: img25,
         categoria: "pañuelo",
-        cantidad:1
+        stock:1
     },
     { 
         id : 26, 
@@ -250,7 +250,7 @@ export const products = [
         precio:990,
         img: img26,
         categoria: "pañuelo",
-        cantidad:1
+        stock:1
     },
     { 
         id : 27, 
@@ -258,7 +258,7 @@ export const products = [
         precio:990,
         img: img27,
         categoria: "pañuelo",
-        cantidad:1
+        stock:1
     },
     { 
         id : 28, 
@@ -266,7 +266,7 @@ export const products = [
         precio:990,
         img: img28,
         categoria: "pañuelo",
-        cantidad:1
+        stock:1
     },
     { 
         id : 29, 
@@ -274,7 +274,7 @@ export const products = [
         precio:990,
         img: img29,
         categoria: "pañuelo",
-        cantidad:1
+        stock:1
     },
     { 
         id : 30, 
@@ -282,7 +282,7 @@ export const products = [
         precio:990,
         img: img30,
         categoria: "pañuelo",
-        cantidad:1
+        stock:1
     },
     { 
         id : 31, 
@@ -290,7 +290,7 @@ export const products = [
         precio:990,
         img: img31,
         categoria: "pañuelo",
-        cantidad:1
+        stock:1
     },
     { 
         id : 32, 
@@ -298,7 +298,7 @@ export const products = [
         precio:990,
         img: img32,
         categoria: "pañuelo",
-        cantidad:1
+        stock:1
     },
     { 
         id : 33, 
@@ -306,7 +306,7 @@ export const products = [
         precio:1690,
         img: img33,
         categoria: "polera",
-        cantidad:1
+        stock:1
     },
     { 
         id : 34, 
@@ -314,7 +314,7 @@ export const products = [
         precio:1690,
         img: img34,
         categoria: "polera",
-        cantidad:1
+        stock:1
     },
     { 
         id : 35, 
@@ -322,7 +322,7 @@ export const products = [
         precio:1690,
         img: img35,
         categoria: "polera",
-        cantidad:1
+        stock:1
     },
     { 
         id : 36, 
@@ -330,7 +330,7 @@ export const products = [
         precio:1690,
         img: img36,
         categoria: "polera",
-        cantidad:1
+        stock:1
     },
     { 
         id : 37, 
@@ -338,7 +338,7 @@ export const products = [
         precio:1690,
         img: img37,
         categoria: "polera",
-        cantidad:1
+        stock:1
     },
     { 
         id : 38, 
@@ -346,7 +346,7 @@ export const products = [
         precio:1690,
         img: img38,
         categoria: "polera",
-        cantidad:1
+        stock:1
     }
 ]
 
